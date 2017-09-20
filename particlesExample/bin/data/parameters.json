@@ -1,0 +1,13 @@
+{
+  "Window" : {
+    "Width" : 1000,
+    "Height" : 768
+  },
+  "Particle" : {
+    "Number" : 5000, 
+    "Reset" : {
+      "Unique Value Min" : -10000, 
+      "Unique Value Max" : -10000 }
+    }
+  }
+}
