@@ -12,13 +12,11 @@ recompile your code after every change. JSON is one popular
 format that allows us to specify values of a wide variety 
 of types in human-readable text format and jsoncpp imports
 the contents of these files so that they are "C++-readable"
-as well. You can read about JSON format 
-
-[here](http://www.json.org)
+as well. You can read about JSON format at http://www.json.org
 
 *NOTE:* Let $ indicate a terminal prompt so that when you see
 
-$ command
+`$ command`
 
 It means you are to type "command" after a terminal prompt
 and hit enter.
@@ -33,14 +31,14 @@ to variables in your C++ code. If you are connected to
 a network, open a terminal and type 
 
 
-$ git clone https://github.com/open-source-parsers/jsoncpp.git
+`$ git clone https://github.com/open-source-parsers/jsoncpp.git`
 
 
 After this downloads, do the following:
 
-$ cd jsoncpp
+`$ cd jsoncpp
 $ mkdir build  
-$ cd build
+$ cd build`
 
 
 Generate a Makefile to build jsoncpp in the build directory 
