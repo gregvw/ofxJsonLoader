@@ -66,7 +66,7 @@ $ cd build`
 Generate a Makefile to build jsoncpp in the build directory 
 using the CMake build system
 
-`$ cmake .. `
+`$ cmake ..`
 
 This command will compile and link all the jsoncpp components
 from the source code you downloaded above. The flag -j tells
