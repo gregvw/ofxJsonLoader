@@ -58,9 +58,9 @@ $ git clone git@github.com:open-source-parsers/jsoncpp.git
 
 After this downloads, do the following:
 
-`$ cd jsoncpp
-$ mkdir build  
-$ cd build`
+`$ cd jsoncpp`
+`$ mkdir build`
+`$ cd build`
 
 
 Generate a Makefile to build jsoncpp in the build directory 
