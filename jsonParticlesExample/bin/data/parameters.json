@@ -1,0 +1,37 @@
+{
+  "Window" : {
+    "Width" : 1000,
+    "Height" : 768
+  },
+  "Particle" : {
+    "Number" : 5000, 
+    "Reset" : {
+      "Unique Value Min" : -10000, 
+      "Unique Value Max" : -10000,
+      "Drag Min Noiseless" : 0.95,
+      "Drag Max Noiseless" : 0.998,
+      "Drag Min Noise" : 0.97,
+      "Drag Max Noise" : 0.99,
+      "Velocity Multiplier" : 3.0      
+    },
+    "Update" : {
+      "Attract" : {
+        "Force Multiplier" : 0.6
+      },
+      "Repel" : {
+        "Distance Threshold" : 150,
+        "Near Force Multiplier" : 0.6,
+        "Far Force Multiplier" : 0.4
+      },
+      "Noise" : {
+        "Force Multiplier" : 0.4
+      },
+      "Nearest" : { 
+        "Minimum Distance" : 40,
+        "Maximum Distance" : 300,
+        "In Range Force Multiplier" : 0.003,
+        "Out of Range Force Multiplier" : 0.4
+      }
+    }
+  }
+}

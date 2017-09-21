@@ -4,3 +4,5 @@
 *.d
 *.so
 .compiler_flags
+obj/*
+bin/jsonParticlesExample

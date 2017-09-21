@@ -24,16 +24,38 @@ It means you are to type "command" after a terminal prompt
 and hit enter.
 
 
+Installing ofxJsonLoader
+------------------------
+
+From your .../openFrameworks/addons directory type
+
+$ git clone https://github.com/gregvw/ofxJsonLoader.git
+
+of if you use ssh
+
+$ git clone git@github.com:gregvw/ofxJsonLoader.git
+
+then 
+
+$ cd ofxJsonLoader
+
+$ mv jsonParticlesExample .../openFrameworks/examples/
+
+
 Getting and installing jsoncpp
 ------------------------------
 
-The first order of business is in get jsoncpp which will 
+The next order of business is in get jsoncpp which will 
 read .json input files and write values found in them 
 to variables in your C++ code. If you are connected to
 a network, open a terminal and type 
 
 
 $ git clone https://github.com/open-source-parsers/jsoncpp.git
+
+or
+
+$ git clone git@github.com:open-source-parsers/jsoncpp.git
 
 
 After this downloads, do the following:
