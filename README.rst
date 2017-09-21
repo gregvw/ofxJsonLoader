@@ -27,17 +27,17 @@ Installing ofxJsonLoader
 
 From your .../openFrameworks/addons directory type
 
-$ git clone https://github.com/gregvw/ofxJsonLoader.git
+`$ git clone https://github.com/gregvw/ofxJsonLoader.git`
 
 of if you use ssh
 
-$ git clone git@github.com:gregvw/ofxJsonLoader.git
+`$ git clone git@github.com:gregvw/ofxJsonLoader.git`
 
 then 
 
-$ cd ofxJsonLoader
+`$ cd ofxJsonLoader`
 
-$ mv jsonParticlesExample .../openFrameworks/examples/
+`$ mv jsonParticlesExample .../openFrameworks/examples/`
 
 
 Getting and installing jsoncpp
@@ -66,7 +66,7 @@ $ cd build`
 Generate a Makefile to build jsoncpp in the build directory 
 using the CMake build system
 
-$ cmake .. 
+`$ cmake .. `
 
 This command will compile and link all the jsoncpp components
 from the source code you downloaded above. The flag -j tells
@@ -76,12 +76,12 @@ would build using four processing unites . The flag -j`nproc` tells
 make  to use as many processing units as your computer has to 
 perform the build. Usually this speeds things up. 
 
-$ make -j`nproc`
+`$ make -j`nproc``
 
 Now you need to install the headers and libraries for jsoncpp. 
 If you have administrator rights on your computer, you can type
 
-$ sudo make install
+`$ sudo make install`
 
 and enter your password. By default, this will install headers to 
 /usr/local/include and the compiled library to /usr/local/lib
@@ -89,7 +89,7 @@ and enter your password. By default, this will install headers to
 If you don't have sudo access, you can still install to a path 
 inside your home directory. For example:
 
-$ export DESTDIR="$HOME/lib/jsoncpp/"
+`$ export DESTDIR="$HOME/lib/jsoncpp/"`
 
 
 
