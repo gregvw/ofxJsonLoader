@@ -114,7 +114,13 @@ Each of the original .cpp files contains values that are
 every time you want to see what happens when you change value,
 you must edit, save, and recompile the code. Some of these
 values have been replaced with ones to be read from 
-data/parameters.json
+data/parameters.json, for example, in main.cpp, instead of the
+previously fixed window dimensions of 1024x768, the Json parser
+collects values from parameters.json in a block called "Window"
+where there are key-value pairs "Width":1024 and "Height":768.
+Once we have compiled the project, we could change the width to
+100, for example to have a very tall skinny window the next time
+the code was run without first having to recompile.
 
 
 Building the Project
